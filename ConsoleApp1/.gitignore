@@ -1,0 +1,55 @@
+# Build output
+/bin/
+/obj/
+/out/
+
+# Rider IDE
+/.idea/
+/*.iml
+/*.xml
+
+# VS Code (if ever used)
+/.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.DotSettings.user
+
+# NuGet packages
+/packages/
+/*.nupkg
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WGPU / Silk.NET / native binaries
+*.dll
+*.pdb
+*.so
+*.dylib
+*.lib
+*.exp
+
+# Dotnet local tools
+/.dotnet/tools/
+
+# JetBrains caches
+/.idea/.idea.*
+/.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/caches/
+
+# Optional: ignore WebGPU shaders or compiled assets if generated at runtime
+*.spv
+*.wgsl.bin
+
